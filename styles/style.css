@@ -18,7 +18,7 @@ header {
 }
 
 nav a:hover{
-    background-color: #DA291C;
+    background-color: #FFB81C;
     color: white;
 }
 
@@ -97,18 +97,25 @@ nav a {
     margin: 0 auto;
 }
 
+#wonders h1{
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
+    color: #DA291C;
+}
+
 #wonders p {
     color: #0032A0;
     font-family: 'Tenor sans', sans-serif;
     font-size: 22px;
     line-height: 1.6;
+    text-align: justify;
 }
 
 
 .gallery {
     padding: 25px 20px;
     text-align: center;
-    background-color: #009739;
+    background-color: #6CACE4;
     margin-top: 60px;
     margin: auto;
     max-width: 95%;
@@ -195,4 +202,244 @@ footer .social img:hover {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+
+
+
+
+
+
+
+
+
+#content {
+    max-width: 100%;
+    background-color: #009739;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#countries {
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 95%;
+}
+
+#countries-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+#countries-box img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#purpose-msg {
+    text-align: justify;
+    margin-top: 20px;
+    max-width: 95%;
+    padding-bottom: 30px;
+}
+
+#purpose-msg h1 {
+    font-size: 2em;
+    color: #DA291C;
+    text-align: center;
+}
+
+#purpose-msg p {
+    font-size: 1em;
+    color: #0032A0;
+    line-height: 1.6;
+}
+
+.subcategory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.destinations-card, .atractions-card, .deals-card {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.destinations-card img, .atractions-card img, .deals-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.destinations-card h2, .atractions-card h2, .deals-card h2 {
+    font-size: 1.5em;
+    color: #DA291C;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+
+.destinations-card p, .atractions-card p, .deals-card p {
+    font-size: 1em;
+    color: #0032A0;
+    line-height: 1.6;
+}
+
+.card-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+/* Hero Section*/
+#obelisco-hero.wonders-hero {
+    width: 95%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px 20px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#obelisco-box.wonders-hero-box {
+    width: 100%; 
+    text-align: center; 
+}
+
+#wonders-img.wonders-hero-img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    width: 400px;
+    height: 600px;
+}
+
+#places-msg.wonders-hero-msg {
+    width: 100%; 
+    text-align: justify; 
+    margin-top: 20px; 
+    max-width: 75%;
+}
+
+#places-msg.wonders-hero-msg h1 {
+    font-size: 2.5em;
+    color: #DA291C;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#places-msg.wonders-hero-msg p {
+    font-size: 1.1em;
+    color: #0032A0;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.wonders-button-box {
+    text-align: center; 
+    padding-top: 40px;
+}
+
+.wonders-button-box a {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.wonders-button-box a:hover {
+    background-color: #0056b3;
+}
+
+/* Grid Section */
+.amazing-grid.wonders-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.amazing-grid.wonders-grid section {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.atacama-card.wonders-card,
+.redeemer-card.wonders-card {
+    flex-direction: row;
+    
+}
+
+.machupichu-card.wonders-card {
+    flex-direction: row-reverse;
+}
+
+.card-img.wonders-card-img {
+    width: 800px;
+    height: 800px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+
+}
+.amazing-grid.wonders-grid h2 {
+    font-size: 2em;
+    color: #DA291C;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.amazing-grid.wonders-grid p {
+    font-size: 1em;
+    color: #0032A0;
+    line-height: 1.6;
+    margin-top: 0;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
 }
